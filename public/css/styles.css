@@ -1,0 +1,39 @@
+body {
+  /* adb5bd */
+  background-color: #e7eaee;
+}
+
+.navbar .navbar-brand > img {
+  width: 100px;
+}
+
+.msg-form {
+  margin-top: 120px;
+}
+
+.message-holder {
+  width: 70vw;
+  margin: 50px auto;
+}
+
+.card {
+  width: 70%;
+  margin: 10px auto;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+
+  .message-holder {
+    width: 90vw;
+  }
+}
