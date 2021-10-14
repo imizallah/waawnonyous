@@ -37,3 +37,10 @@ body {
     width: 90vw;
   }
 }
+
+/* Register page styles */
+.centerMe {
+  border: 2px solid red;
+  width: 65%;
+  margin: auto;
+}
